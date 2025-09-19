@@ -1,14 +1,13 @@
 // This file creates a new page at the URL "/dashboard".
 // Next.js uses the folder name to define the route.
-"use client"
+"use client";
 
 import { useEffect } from "react";
 
 // We define the page component as a standard React functional component.
 export default function DashboardPage() {
   useEffect(() => {
-    window.location.href = "https://deep-link-test-ngocnights-projects.vercel.app/mobile_app"
-
+    window.location.href = "foodizmobileapp://dashboard";
   }, []);
 
   return (
