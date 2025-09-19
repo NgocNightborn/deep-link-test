@@ -8,7 +8,7 @@
         ],
         "components": [
           {
-            "/": "/mobile_app/*",
+            "/": "/*",
             "comment": "Path for redirection to a mobile app"
           }
         ]
