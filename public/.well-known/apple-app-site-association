@@ -1,0 +1,18 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "XKGVQZYXP5.be.goldenpalacedice.app"
+        ],
+        "components": [
+          {
+            "/": "/mobile_app/*",
+            "comment": "Path for redirection to a mobile app"
+          }
+        ]
+      }
+    ]
+  }
+}
