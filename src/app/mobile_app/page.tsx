@@ -7,7 +7,7 @@ import { useEffect } from "react";
 // We define the page component as a standard React functional component.
 export default function DashboardPage() {
   useEffect(() => {
-    window.location.href = "https://test.ngoc-deep-link.dedyn.io/mobile_app"
+    window.location.href = "https://deep-link-test-chi.vercel.app/mobile_app"
   }, []);
 
   return (
@@ -16,6 +16,7 @@ export default function DashboardPage() {
         <h1 className="text-4xl font-bold text-gray-800 mb-4">
           Welcome to the Dashboard!
         </h1>
+        
         <p className="text-lg text-gray-600">
           This is a new page created inside the `app` directory.
         </p>
