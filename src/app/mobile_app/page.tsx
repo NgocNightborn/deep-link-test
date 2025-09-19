@@ -1,13 +1,19 @@
 // This file creates a new page at the URL "/dashboard".
 // Next.js uses the folder name to define the route.
-"use client"
+"use client";
 
 import { useEffect } from "react";
 
 // We define the page component as a standard React functional component.
 export default function DashboardPage() {
   useEffect(() => {
-    window.location.href = "https://test.ngoc-deep-link.dedyn.io//mobile_app"
+    const newWindow = window.open(
+      "https://test.ngoc-deep-link.dedyn.io//mobile_app",
+      "_blank"
+    );
+
+    // Try to close current window if possible (usually works only if opened via script)
+    window.close();
   }, []);
 
   return (
