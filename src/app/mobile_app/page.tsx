@@ -1,5 +1,6 @@
 // This file creates a new page at the URL "/dashboard".
 // Next.js uses the folder name to define the route.
+"use client"
 
 import { useEffect } from "react";
 
